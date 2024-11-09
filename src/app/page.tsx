@@ -80,7 +80,7 @@ function StarField(props: any) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              An Frontend Developer
+              A Frontend Developer
             </motion.p>
             <Button variant="outline" size="lg" className="bg-transparent border-white text-white hover:bg-white hover:text-black transition-colors">
               Explore the Portfolio
