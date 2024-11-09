@@ -28,7 +28,7 @@ function StarField(props: any) {
         <PointMaterial
           transparent
           color="#ffffff"
-          size={0.0034}
+          size={0.003}
           sizeAttenuation={true}
           depthWrite={false}
         />
