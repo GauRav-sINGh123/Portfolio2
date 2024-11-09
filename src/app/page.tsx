@@ -34,7 +34,7 @@ function StarField(props) {
   )
 }
 
-export default function MinimalistCosmicPortfolio() {
+ function Home() {
   const sectionRefs = {
     intro: useRef(null),
     about: useRef(null),
@@ -288,26 +288,4 @@ export default function MinimalistCosmicPortfolio() {
   )
 }
 
-// Custom scrollbar styles
-const styles = `
-.custom-scrollbar {
-  scrollbar-width: thin;
-  scrollbar-color: black black;
-}
-
-.custom-scrollbar::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: black;
-  border-radius: 10px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: #000;
-}
-`
-
-export const globalStyles = <style>{styles}</style>
+export default Home
