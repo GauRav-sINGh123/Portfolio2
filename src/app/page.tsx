@@ -10,7 +10,7 @@ import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Github, Linkedin, Mail } from 'lucide-react'
 import { motion } from 'framer-motion'  
 
-function StarField(props) {
+function StarField(props:any) {
   const ref = useRef()
   const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.5 }))
 
