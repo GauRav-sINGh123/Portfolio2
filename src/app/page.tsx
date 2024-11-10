@@ -130,13 +130,13 @@ function StarField(props: any) {
           >
             {[
               { name: "Frontend Development", skills: ["React", "Next.js"] },
-              { name: "Backend Development", skills: ["Node.js", "Express", "Firebase"] },
+              { name: "Backend Development", skills: [ "Firebase"] },
               { name: "Languages", skills: ["C", "C++", "Java", "Python", "TypeScript", "JavaScript"]},
               { name: "Database Management", skills: ["MongoDB", "Firestore"] },
               { name: "Design", skills: ["Tailwind CSS", "Framer Motion", "Shadcn", "Material UI"] },
                
             ].map((category, index) => (
-              <Card key={index} className="bg-transparent border border-white hover:scale-105 transition-all ease-in-out cursor-pointer">
+              <Card key={index} className="border-white border-2  bg-transparent hover:scale-105 transition-all ease-out cursor-pointer">
                 <CardHeader>
                   <CardTitle className="text-white">{category.name}</CardTitle>
                 </CardHeader>
@@ -211,7 +211,7 @@ function StarField(props: any) {
                 image: "/JobFinder.jpg"  
               }
             ].map((project, index) => (
-              <Card key={index} className="bg-transparent border border-white  hover:scale-105 transition-all ease-in-out cursor-pointer">
+              <Card key={index} className="border border-white/10  bg-white/5 backdrop-blur-sm  hover:bg-white/10 hover:scale-105 transition-all ease-out cursor-pointer">
                 <CardHeader>
                   <CardTitle className="text-white">{project.name}</CardTitle>
                   <CardDescription className="text-gray-300">{project.desc}</CardDescription>
@@ -239,9 +239,9 @@ function StarField(props: any) {
           <div className="space-y-8 w-full max-w-2xl">
             {[
               {
-                role: "Frontend Developer",
+                role: "Frontend Developer Intern",
                 company: "RefRelay",
-                period: "2024 - Present",
+                period: "September 2024 - Present",
                 achievements: [
                   "Developed and maintained responsive UI pages using React and Material UI.",
                   "Integrated Zustand for efficient global state management across components.",
@@ -268,7 +268,10 @@ function StarField(props: any) {
         </section>
 
         <section ref={sectionRefs.contact} className="min-h-screen flex flex-col items-center justify-center p-8">
-          <h2 className="text-4xl font-bold mb-12">Get in Touch</h2>
+         <h2 className="text-3xl font-bold mb-8 text-center">Let's Connect Across Dimensions</h2>
+          <p className="text-xl mb-8 text-center max-w-2xl">
+            Ready to embark on a cosmic coding journey? Reach out through the interstellar communication channels below!
+          </p>
           <div className="space-y-4">
             <div className="flex space-x-4">
               <a href="https://github.com/GauRav-sINGh123" target='_blank'>
