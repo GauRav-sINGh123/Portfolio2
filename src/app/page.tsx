@@ -242,12 +242,7 @@ function StarField(props: any) {
                 role: "Frontend Developer Intern",
                 company: "RefRelay",
                 period: "September 2024 - Present",
-                achievements: [
-                  "Developed and maintained responsive UI pages using React and Material UI.",
-                  "Integrated Zustand for efficient global state management across components.",
-                  "Implemented robust Zod validations to ensure data integrity and form accuracy throughout the application.",
-                  "Collaborated closely with backend teams to create dynamic and interactive frontend components."
-                ]
+                
               }
             ].map((job, index) => (
               <Card key={index} className="bg-transparent border border-white  hover:scale-105 transition-all ease-in-out cursor-pointer">
@@ -255,13 +250,7 @@ function StarField(props: any) {
                   <CardTitle className="text-white">{job.role}</CardTitle>
                   <CardDescription className="text-gray-300">{job.company} - {job.period}</CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <ul className="list-disc pl-5 text-white">
-                    {job.achievements.map((ach, achIndex) => (
-                      <li key={achIndex} className="mb-2">{ach}</li>
-                    ))}
-                  </ul>
-                </CardContent>
+                
               </Card>
             ))}
           </div>
