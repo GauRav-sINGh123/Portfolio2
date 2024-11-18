@@ -136,7 +136,7 @@ function StarField(props: any) {
               { name: "Design", skills: ["Tailwind CSS", "Framer Motion", "Shadcn", "Material UI"] },
                
             ].map((category, index) => (
-              <Card key={index} className="border-white border-2  bg-transparent hover:scale-105 transition-all ease-out cursor-pointer">
+              <Card key={index} className="border border-white/10  bg-white/5 backdrop-blur-sm  hover:bg-white/10 hover:scale-105 transition-all ease-out cursor-pointer">
                 <CardHeader>
                   <CardTitle className="text-white">{category.name}</CardTitle>
                 </CardHeader>
