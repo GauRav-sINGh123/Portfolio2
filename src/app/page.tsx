@@ -171,7 +171,7 @@ function StarField(props: any) {
               {
                 name: "NoteNinja",
                 desc: "AI Powered Notes App",
-                tech: ["React", "Next.js","Typescript", "Firebase", "Gemini"],
+                tech: ["React", "Next.js","Typescript", "Firebase", "Gemini","Clerk", "Tailwind Css"],
                 link: "https://note-ninja-seven.vercel.app/",
                 image: "/NoteNinja.jpg"  
               },
@@ -190,11 +190,11 @@ function StarField(props: any) {
                 image: "/Pikclick.jpg"  
               },
               {
-                name: "Firebolt",
-                desc: "Modern Software as Service Website",
-                tech: ["Next.js", "Framer Motion", "Tawilwind Css","React","Shadcn"],
-                link: "https://firebolt-rho.vercel.app/",
-                image: "/Firebolt.jpg"  
+                name: "JobFinder",
+                desc: "Search Your Dream Job",
+                tech: ["Tawilwind Css","React","Firebase"],
+                link: "https://online-job-portal-26f13.web.app/#_",
+                image: "/JobFinder.jpg"  
               },
               {
                 name: "MovieHub",
@@ -204,12 +204,21 @@ function StarField(props: any) {
                 image: "/MovieHub.jpg"  
               },
               {
-                name: "JobFinder",
-                desc: "Search Your Dream Job",
-                tech: ["Tawilwind Css","React","Firebase"],
-                link: "https://online-job-portal-26f13.web.app/#_",
-                image: "/JobFinder.jpg"  
+                name: "Firebolt",
+                desc: "Modern Software as Service Website",
+                tech: ["Next.js", "Framer Motion", "Tawilwind Css","React","Shadcn"],
+                link: "https://firebolt-rho.vercel.app/",
+                image: "/Firebolt.jpg"  
+              },
+              {
+                name: "CraftlyUI",
+                desc: "Modern UI Website",
+                tech: ["Next.js", "Framer Motion", "Tawilwind Css","React","Shadcn"],
+                link: "https://craftly-ui.vercel.app/",
+                image: "/Craftly.jpg"  
               }
+             
+              
             ].map((project, index) => (
               <Card key={index} className="border border-white/10  bg-white/5 backdrop-blur-sm  hover:bg-white/10 hover:scale-105 transition-all ease-out cursor-pointer">
                 <CardHeader>
